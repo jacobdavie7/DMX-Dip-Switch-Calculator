@@ -1,9 +1,3 @@
-Written in C, DMX Dip Calc is a calculator for DMX Address. 
-Will ask you for the value of each of the 8 dip switches. Enter 1 for on (usually up) and 0 for off (usually down). After you enter your value,hit enter.
+Enter 0 or 1 to denote if each dip switch is on or off. The program will then calulate the DMX address and draw a picture of what the switches should look like for troubleshooting.
 
-Go though all 8 switches.
-The program will tell you what the DMX address that the dip switches are set too. Will also print out a picture of how the switches should look for troubleshooting.
-
-Note:WILL NOT WORK IF THERE IS A ON OR ACTIVE DIP SWITCH. If your light has one, just make sure that switch is turned on and enter the switches the controll the address (usually the rest of them) IN THE CORRESPONDING SPOT. 
-
-This project is licensed under the terms of the GNU General Public License v3.0 license.
+Note: This does not take into account an "on" / "active" / "enabled" dip switch. If your light has one, ensure it to set to the on position and ignore that switch when entering in values and the swtich drawing.
